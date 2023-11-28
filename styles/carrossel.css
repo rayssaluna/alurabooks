@@ -1,0 +1,130 @@
+.carrossel__titulo {
+   color: var(--laranja);
+   background-color: var(--branco);
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 18px;
+   font-weight: 700;
+   padding: 0.5em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 75%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+ 
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    list-style-type: none;
+    display: flex;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0 4px 4px rgba(15, 14, 14, 0.25);
+    border-radius: 10px;
+    margin: 3em;
+    padding: 1em; 
+     
+}
+
+.descricao__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descricao__titulo-livro {
+    color: var(--azul);
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-size: 18px;
+    margin-left: 0.5em;
+}
+
+.botoes__item {
+   margin: 0.5em; 
+   padding: o.5em;
+}
+
+.botoes__ancora {
+   background-color: var(--laranja); 
+   padding: 1em 2em;
+   color: var(--branco);
+   font-weight: 700;
+   text-decoration: none;
+   margin: 2em 0.5em;
+   }
+
+   @media screen and (min-width: 1024px) {
+    .carrossel_-titulo {
+       font-size: 26px;
+    }
+    
+    .swiper-pagination {
+       margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+       width: 70%;
+    }
+
+   .card {
+       width: 80%;
+       margin: 2em auto;
+   }
+}
+
+@media screen and (min-width: 1728px) {
+   .carrossel__container {
+       display: flex;
+       margin: 0 20vh 3em 20vh;
+       align-items: center;
+   }
+
+   .swiper-pagination {
+       margin: 1em 0;
+    }
+
+    .swipe {
+       width: 50%;
+    }
+
+    .descricao__titulo {
+       font-size: 32px;
+    }
+
+    .descricao__texto {
+       font-size: 16px;
+    }
+
+    .card {
+      margin-left: 3em;
+    }
+  
+}
+
+   
